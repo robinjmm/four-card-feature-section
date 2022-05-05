@@ -17,3 +17,9 @@
         align-items: center;
     }
 }
+
+@media (orientation: landscape) {
+    body {
+        padding-top: rem(80px);
+    }
+}

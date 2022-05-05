@@ -8,7 +8,7 @@ body {
     font-weight: $fw-normal;
     font-size: rem(15px);
     width: 100%;
-    padding: 5vh 0;
+    padding: 8vh 0;
 }
 
 header,
@@ -19,6 +19,10 @@ main {
 
 header {
     margin-bottom: rem(80px);
+}
+
+main {
+    max-width: 1200px;
 }
 
 .heading {
