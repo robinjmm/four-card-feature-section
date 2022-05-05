@@ -1,0 +1,42 @@
+@use '../base/variables'as *;
+
+.card {
+    max-width: 350px;
+    border-radius: em(10px, 15px);
+    padding: em(30px, 15px);
+    box-shadow: $box-shadow;
+    text-align: left;
+    margin-inline: auto;
+    margin-bottom: rem(25px);
+    line-height: 1.7;
+    position: relative;
+
+    &--cyan {
+        @include border-accent($accent-cyan);
+    }
+
+    &--red {
+        @include border-accent($accent-red);
+    }
+
+    &--orange {
+        @include border-accent($accent-orange);
+    }
+
+    &--blue {
+        @include border-accent($accent-blue);
+    }
+
+
+    &__heading {
+        color: $heading-color;
+        font-weight: $fw-bold;
+        font-size: rem(25px);
+        margin-bottom: em(5px, 25px);
+    }
+
+    &__icon {
+        margin-top: rem(40px);
+        margin-left: auto;
+    }
+}

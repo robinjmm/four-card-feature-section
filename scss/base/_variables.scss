@@ -1,0 +1,41 @@
+// Colors
+$text-color: hsl(229, 6%, 66%);
+$heading-color: hsl(234, 12%, 34%);
+
+$bg-main: hsl(0, 0%, 98%);
+
+$accent-cyan: hsl(180, 62%, 55%);
+$accent-red: hsl(0, 78%, 62%);
+$accent-orange: hsl(34, 97%, 64%);
+$accent-blue: hsl(212, 86%, 64%);
+
+// Box Shadow
+$box-shadow: 0px 4px 10px hsla(229, 6%, 66%, 0.518);
+
+
+// Fonts
+$base-font-size: 16px;
+$ff-primary: 'Poppins',
+sans-serif;
+
+$fw-light: 200;
+$fw-normal: 400;
+$fw-bold: 600;
+
+// Functions
+@function rem($value) {
+    $remValue: calc(($value / $base-font-size) * 1rem);
+    @return $remValue;
+}
+
+// $value is the desired size
+// $base is font-size of the parent
+@function em($value, $base) {
+    $emValue: calc(($value / $base) * 1em);
+    @return $emValue;
+}
+
+// Mixins
+@mixin border-accent($color) {
+    border-top: 5px solid $color;
+}

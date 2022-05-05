@@ -6,28 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Four card feature section</title>
+
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="./css/index.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    Reliable, efficient delivery
-    Powered by Technology
+    <header>
+        <h1 class="heading">
+            Reliable, efficient delivery
+            <span class="heading--bold">Powered by Technology</span>
+        </h1>
+        <p class="sub-heading">Our Artificial Intelligence powered tools use millions of project data points
+            to ensure that your project is successful</p>
+    </header>
 
-    Our Artificial Intelligence powered tools use millions of project data points
-    to ensure that your project is successful
+    <main>
+        <article class="card card--cyan">
+            <h3 class="card__heading">Supervisor</h3>
+            <p>Monitors activity to identify project roadblocks</p>
+            <img class="card__icon" src="./images/icon-supervisor.svg" alt="An icon of magnifying glass">
+        </article>
 
-    Supervisor
-    Monitors activity to identify project roadblocks
+        <div class="stacked">
+            <article class="card card--red">
+                <h3 class="card__heading">Team Builder</h3>
+                <p>Scans our talent network to create the optimal team for your project</p>
+                <img class="card__icon" src="./images/icon-team-builder.svg" alt="An icon of a web page">
+            </article>
+            <article class="card card--orange">
+                <h3 class="card__heading">Karma</h3>
+                <p>Regularly evaluates our talent to ensure quality</p>
+                <img class="card__icon" src="./images/icon-karma.svg" alt="An icon of a light bulb">
+            </article>
+        </div>
 
-    Team Builder
-    Scans our talent network to create the optimal team for your project
-
-    Karma
-    Regularly evaluates our talent to ensure quality
-
-    Calculator
-    Uses data from past projects to provide better delivery estimates
+        <article class="card card--blue">
+            <h3 class="card__heading">Calculator</h3>
+            <p>Uses data from past projects to provide better delivery estimates</p>
+            <img class="card__icon" src="./images/icon-calculator.svg" alt="An icon of a computer">
+        </article>
+    </main>
 </body>
 
 </html>
