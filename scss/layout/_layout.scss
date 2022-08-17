@@ -1,4 +1,4 @@
-@use '../base/variables'as *;
+@use '../base/variables' as *;
 
 body {
     text-align: center;
@@ -23,6 +23,7 @@ header {
 
 main {
     max-width: 1200px;
+    margin-bottom: rem(60px);
 }
 
 .heading {
