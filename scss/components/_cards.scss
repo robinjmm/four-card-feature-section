@@ -1,4 +1,4 @@
-@use '../base/variables'as *;
+@use "../base/variables" as *;
 
 .card {
     max-width: 350px;
@@ -6,7 +6,8 @@
     padding: em(30px, 15px);
     box-shadow: $box-shadow;
     text-align: left;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: rem(40px);
     line-height: 1.7;
     position: relative;
