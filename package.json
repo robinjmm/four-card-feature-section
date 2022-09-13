@@ -1,10 +1,10 @@
 {
   "name": "four-card-feature-section",
   "version": "1.0.0",
-  "description": "A challenge to build a feature section with four cards from Frontendmentor.io",
+  "description": "My solution for the Four Card Feature Section challenge from Frontendmentor.io",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch scss/styles.scss:css/styles.css",
+    "watch": "sass --watch scss/styles.scss:css/styles.css",
     "prod": "sass scss/styles.scss:css/styles.css && postcss css/styles.css -o css/styles.css"
   },
   "repository": {
